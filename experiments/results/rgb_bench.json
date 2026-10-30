@@ -1,0 +1,30 @@
+{
+  "checkpoint": "experiments/abl_rgb_e4/best.pt",
+  "checkpoint_mb": 265.0365800857544,
+  "params_m": 23.136737,
+  "image_size": 392,
+  "device": "mps",
+  "hardware": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python": "3.14.6",
+    "torch": "2.14.1",
+    "cpu_count": 10,
+    "cuda": false,
+    "mps": true
+  },
+  "fusion": "none",
+  "rgb_only": {
+    "mean_ms": 42.94489170036589,
+    "p50_ms": 42.812124971533194,
+    "p95_ms": 43.80057310045231,
+    "fps": 23.28565657999971,
+    "stages_mean_ms": {
+      "preprocess_ms": 4.0979916016416,
+      "model_ms": 38.3958943382216,
+      "postprocess_ms": 0.37634299757579964,
+      "total_ms": 42.870228937439
+    }
+  },
+  "peak_memory_mb": 89.00341796875
+}
